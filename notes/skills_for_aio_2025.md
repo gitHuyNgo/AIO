@@ -18,8 +18,8 @@
   1. Title
   2. Abstract
   3. Introduction
-  4. Proposed Method
-  5. Experimental Results
+  4. Experimental Results 
+  5. Proposed Method
   6. Related Works
 - Tools: NotebookLM for summarization
 
@@ -58,9 +58,7 @@
 
 ## 🔍 Personal Reflection
 
-> _(Write your own struggles, realizations, or questions here)_  
-> e.g. "I realized how important it is to structure prompts properly for ChatGPT when debugging."  
-> e.g. "Still not fully confident with reading research papers, might need to try NotebookLM soon."
+> AI helps a lot, but sometimes it's faster to just write the code myself than to clean up ChatGPT's mess. Especially when the logic gets tricky.
 
 ---
 
