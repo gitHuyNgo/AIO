@@ -1,0 +1,140 @@
+{
+    // ========================
+    // Python Configuration
+    // ========================
+
+    // Enable linting (code quality checks)
+    "python.linting.enabled": true,
+
+    // Enable individual linters
+    "python.linting.pylintEnabled": true,     // General-purpose linter
+    "python.linting.flake8Enabled": true,     // Style and formatting (PEP8)
+    "python.linting.mypyEnabled": true,       // Static type checking
+    "python.linting.banditEnabled": true,     // Security analysis
+
+    // Set the code formatter to Black
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "79"], // Set max line length to 80
+
+    // Enable testing frameworks
+    "python.testing.unittestEnabled": true,   // Built-in Python unittest
+    "python.testing.pytestEnabled": true,     // Popular third-party framework
+
+    // Basic type checking using Pylance
+    "python.analysis.typeCheckingMode": "basic",
+
+    // ========================
+    // Code Suggestions
+    // ========================
+
+    // Control suggestions behavior
+    "editor.quickSuggestions": {
+      "other": true,     // Show suggestions in general code
+      "comments": false, // Disable suggestions in comments
+      "strings": true    // Enable suggestions in strings
+    },
+
+    // ========================
+    // Editor Settings
+    // ========================
+
+    "editor.formatOnSave": true,           // Auto format code when saving
+    "editor.tabSize": 4,                   // Set tab size to 4 spaces
+    "editor.insertSpaces": true,          // Convert tabs to spaces
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",     // Fix ESLint issues on save
+      "source.fixAll.tslint": "explicit",     // Fix TSLint issues on save
+      "source.organizeImports": "explicit"    // Automatically organize imports
+    },
+
+    // ========================
+    // File Behavior
+    // ========================
+
+    "files.autoSave": "afterDelay",        // Auto-save after delay
+    "files.autoSaveDelay": 1000,           // Delay in ms (1 second)
+    "explorer.confirmDelete": false,       // Disable confirmation on file delete
+    "explorer.confirmDragAndDrop": false,  // Disable confirmation on drag & drop
+    "files.trimTrailingWhitespace": true,  // Remove extra whitespace at line ends
+    "files.insertFinalNewline": true,      // Ensure newline at end of file
+    "files.trimFinalNewlines": true,       // Remove extra blank lines at file end
+
+    // ========================
+    // UI & Theme
+    // ========================
+
+    "workbench.startupEditor": "newUntitledFile", // Open blank file on startup
+    "workbench.colorTheme": "Visual Studio Dark", // Set theme
+    "workbench.iconTheme": "vscode-icons",        // Use custom file icons
+
+    // ========================
+    // Terminal Settings
+    // ========================
+
+    "terminal.integrated.fontSize": 14,       // Terminal font size
+    "terminal.integrated.scrollback": 10000,  // Scrollback buffer size
+
+    // ========================
+    // Python-specific Formatting
+    // ========================
+
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter", // Use Black formatter
+      "editor.formatOnSave": true                             // Format on save for Python
+    },
+
+    // ========================
+    // Word Wrap & Guidelines
+    // ========================
+
+    "editor.rulers": [80],                     // Show ruler at 80 characters
+    "editor.wordWrap": "wordWrapColumn",       // Enable word wrap at specific column
+    "editor.wordWrapColumn": 80,               // Set word wrap column to 80
+
+    // ========================
+    // Suggestions Behavior
+    // ========================
+
+    "editor.snippetSuggestions": "top",        // Show code snippets on top
+    "editor.suggestSelection": "first",        // Auto-select first suggestion
+
+    // ========================
+    // Minimap
+    // ========================
+
+    "editor.minimap.enabled": true,            // Show code minimap
+
+    // ========================
+    // Workspace Security
+    // ========================
+
+    "security.workspace.trust.untrustedFiles": "open", // Automatically open untrusted files
+
+    // ========================
+    // Live Server
+    // ========================
+
+    "liveServer.settings.donotShowInfoMsg": true, // Suppress Live Server info message
+
+    // ========================
+    // Extension Recommendations
+    // ========================
+
+    "extensions.recommendations": [
+      "ms-python.python",                   // Main Python extension
+      "ms-python.vscode-pylance",          // Language server with type checking
+      "esbenp.prettier-vscode",            // Prettier formatter
+      "dbaeumer.vscode-eslint",            // ESLint integration
+      "ms-azuretools.vscode-docker",       // Docker support
+      "eamodio.gitlens",                   // Git tools and annotations
+      "github.vscode-pull-request-github", // GitHub PR support
+      "SonarSource.sonarlint-vscode",      // SonarLint for static analysis
+      "njpwerner.autodocstring"            // Auto-generate Python docstrings
+
+      // Additional (commented out):
+      // "ms-python.black-formatter",
+      // "kevinrose.vsc-python-indent",
+      // "lextudio.restructuredtext",
+      // "ms-python.isort"
+    ]
+  }
