@@ -1,34 +1,34 @@
-# Giải thích đơn giản thư mục
+# Simple Folder Explanation
 
-Thư mục này chứa tài liệu và ví dụ thực hành liên quan đến **bài giảng coding methodology in python**, bao gồm lý thuyết và thực hành theo các nguyên tắc lập trình sạch, Pythonic, SOLID,...
+This folder contains materials and practice examples related to the **lecture on coding methodology in Python**, including theory and exercises based on clean code principles, Pythonic practices, SOLID principles, and more.
 
-## Tài liệu PDF
+## PDF Document
 
-- **`coding_methodology_in_python_v06_with_answer.pdf`**
-  → Slide bài giảng, bao gồm lý thuyết và **bài tập thực hành với lời giải mẫu**:
+- **`coding_methodology_in_python_v06_with_answer.pdf`**  
+  → Lecture slides, including theory and **practice exercises with sample solutions**:
 
-  - Trang **25**: Bài tập thực hành 1
-  - Trang **42**: Bài tập thực hành 2
-  - Trang **54**: Bài tập thực hành 3
-
----
-
-## Các file `.ipynb` – Notebook thực hành
-
-| Tên File                         | Nội dung                                                            |
-| -------------------------------- | ------------------------------------------------------------------- |
-| `part1_clean_code_basics.ipynb`  | Nguyên tắc cơ bản về Clean Code trong Python                        |
-| `part2_pythonic_code.ipynb`      | Cách viết code Pythonic – ngắn gọn, rõ ràng, hiệu quả               |
-| `part3_general_principles.ipynb` | Các nguyên tắc tổng quát giúp cải thiện chất lượng code             |
-| `part4_SOLID.ipynb`              | Áp dụng 5 nguyên lý SOLID trong Python (viết hướng đối tượng chuẩn) |
+  - Page **25**: Practice Exercise 1  
+  - Page **42**: Practice Exercise 2  
+  - Page **54**: Practice Exercise 3
 
 ---
 
-## Cấu hình VSCode (Tham khảo)
+## `.ipynb` Files – Practice Notebooks
 
-- **`example_settings.json`**
-  → File cấu hình gợi ý cho VSCode để:
+| File Name                        | Content                                                              |
+| -------------------------------- | --------------------------------------------------------------------- |
+| `part1_clean_code_basics.ipynb`  | Basic principles of Clean Code in Python                             |
+| `part2_pythonic_code.ipynb`      | Writing Pythonic code – concise, readable, and efficient              |
+| `part3_general_principles.ipynb` | General principles to improve code quality                            |
+| `part4_SOLID.ipynb`              | Applying the 5 SOLID principles in Python (proper object-oriented design) |
 
-  - Format code tự động với **Black**
-  - Dùng nhiều công cụ linting: `pylint`, `flake8`, `mypy`, `bandit`
-  - Tối ưu trải nghiệm viết code Python
+---
+
+## VSCode Configuration (Reference)
+
+- **`example_settings.json`**  
+  → Suggested configuration file for VSCode to:
+
+  - Automatically format code using **Black**  
+  - Use multiple linting tools: `pylint`, `flake8`, `mypy`, `bandit`  
+  - Optimize the Python coding experience
